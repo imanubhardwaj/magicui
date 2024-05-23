@@ -152,6 +152,11 @@ const ui: Registry = {
     type: "components:ui",
     files: ["registry/components/magicui/wavy-text.tsx"],
   },
+  "gradual-spacing": {
+    name: "gradual-spacing",
+    type: "components:ui",
+    files: ["registry/components/magicui/gradual-spacing.tsx"],
+  },
 };
 
 const example: Registry = {
