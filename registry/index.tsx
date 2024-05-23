@@ -147,6 +147,11 @@ const ui: Registry = {
     type: "components:ui",
     files: ["registry/components/magicui/typing-animation.tsx"],
   },
+  "wavy-text": {
+    name: "wavy-text",
+    type: "components:ui",
+    files: ["registry/components/magicui/wavy-text.tsx"],
+  },
 };
 
 const example: Registry = {
