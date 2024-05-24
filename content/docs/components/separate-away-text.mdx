@@ -1,0 +1,39 @@
+---
+title: Separate Away
+date: 2024-05-23
+description: An animated text component that waves the text.
+author: DoffuXx
+published: true
+---
+
+<ComponentPreview name="separate-away-text-demo" />
+
+<Steps>
+
+  ### Installation
+
+  Copy and paste the following code into your project.
+
+  ```text
+  components/magicui/separate-away-text.tsx
+  ```
+
+  <ComponentSource name="separate-away-text" />
+
+</Steps>
+
+## Props
+
+| Prop        | Type            | Description                                        | Default |
+| ----------- | --------------- | -------------------------------------------------- | ------- |
+| className   | string          | The class name to be applied to the component      |         |
+| duration    | number          | Durations (seconds) for the animation              | 0.5     |
+| textTop     | string          | The word to be animated                            |         |
+| textBottom  | string          | The word to be animated                            |         |
+| separateAwayTextVariants     | object          | Custom animation variants for motion component     |     hidden: { opacity: 0, y: 0 },
+                          visible: (custom: number) => ({
+                            opacity: 1,
+                            y: custom * 5,
+                            transition: { duration: 1.5 },
+                          })
+        |

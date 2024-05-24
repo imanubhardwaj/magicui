@@ -157,6 +157,11 @@ const ui: Registry = {
     type: "components:ui",
     files: ["registry/components/magicui/gradual-spacing.tsx"],
   },
+  "separate-away-text": {
+    name: "separate-away-text",
+    type: "components:ui",
+    files: ["registry/components/magicui/separate-away-text.tsx"],
+  },
 };
 
 const example: Registry = {
